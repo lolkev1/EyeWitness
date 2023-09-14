@@ -67,7 +67,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     apt install -y python3-fuzzywuzzy python3-pyvirtualdisplay  python3-netaddr python3-levenshtein
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -102,7 +102,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -140,7 +140,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -178,7 +178,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -217,7 +217,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -257,7 +257,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -285,7 +285,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -331,7 +331,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     python3 -m pip install netaddr
@@ -382,7 +382,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install selenium
     python3 -m pip install python-Levenshtein
     python3 -m pip install pyvirtualdisplay
     echo
@@ -427,7 +427,7 @@ case ${osinfo} in
       echo
       echo '[*] Installing Python Modules'
       python3 -m pip install fuzzywuzzy
-      python3 -m pip install selenium==4.9.1
+      python3 -m pip install selenium
       python3 -m pip install python-Levenshtein
       python3 -m pip install pyvirtualdisplay
       python3 -m pip install netaddr
